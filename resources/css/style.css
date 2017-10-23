@@ -2,12 +2,11 @@ h1 {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
-  color: white;
+  color: White;
   text-align: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
   background-position: center;
   background-size: cover;
-  background-image:
-  url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
 }
 ul {
   font-size: 18px;
@@ -38,10 +37,18 @@ h4 {
 }
 p {
   font-family: Helvetica;
+  text-align: center;
   font-size: 23px;
   font-weight: bold;
   color: White;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
-  text-align: center;
-  background-position: center;
+  background: center url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
+}
+.last p {
+  text-align: left;
+  font-family: Helvetica;
+  display: block;
+  font-size: 11px;
+  color: White;
+  background: dimgray;
+  width: 100%;
 }
